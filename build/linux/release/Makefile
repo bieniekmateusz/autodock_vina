@@ -1,5 +1,4 @@
 BASE=
-BOOST_VERSION=1_41
 BOOST_INCLUDE=
 C_PLATFORM=-static -pthread
 # use whatever the default g++ is
