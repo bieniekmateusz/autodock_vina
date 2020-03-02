@@ -1,6 +1,7 @@
 BASE=
 BOOST_INCLUDE=
-C_PLATFORM=-static -pthread
+# Other C flags: -static 
+C_PLATFORM=-pthread
 # use whatever the default g++ is
 GPP=g++
 C_OPTIONS= -O3 -DNDEBUG
