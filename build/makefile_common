@@ -19,6 +19,8 @@ endif
 ifeq ($(GPP),)
 $(error   The compiler is empty, ie GPP was set $(GPP))
 endif
+# fixme - should check if there is a compiler, and compile something small to test if it is fine
+# fixme: check if using make CC=/path/compiler properly overwrites the compiler? 
 CC = ${GPP} ${C_PLATFORM} -ansi -Wno-long-long ${C_OPTIONS} $(INCFLAGS)
 
 LDFLAGS = -L$(BASE)/lib -L.
