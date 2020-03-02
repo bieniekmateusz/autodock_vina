@@ -1,6 +1,6 @@
-BASE=/usr/local
+BASE=
 BOOST_VERSION=1_41
-BOOST_INCLUDE = $(BASE)/include
+BOOST_INCLUDE=
 C_PLATFORM=-static -pthread
 GPP=/usr/local/bin/g++
 C_OPTIONS= -g
