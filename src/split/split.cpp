@@ -38,7 +38,7 @@
 using boost::filesystem::path;
 
 path make_path(const std::string& str) {
-	return path(str, boost::filesystem::native);
+	return path(str);
 }
 
 std::string default_prefix(const std::string& input_name, const std::string& add) {
